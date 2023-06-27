@@ -3,7 +3,7 @@
 ## Контактная информация:
 =======
   - E-mail: mvezhnovets@gmail.com
-  - GitHub: [mvezhnovets]("https://github.com/mvezhnovets")
+  - GitHub: [mvezhnovets](https://github.com/mvezhnovets)
   - Telegram: @mvezhnovets
 ****
 ## Обо мне:
@@ -30,7 +30,7 @@ function getRealFloor(n) {
 ```
 ****
 ## Образование:
-  - Front-End Developer в [TeachMeSkills]("https://teachmeskills.by/")
+  - Front-End Developer в [TeachMeSkills](https://teachmeskills.by/)
 ****
 ## Языки:
   - English(A1)
