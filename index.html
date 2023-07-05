@@ -3,9 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Mikhail Vezhnovets</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./assets/img/favicon.png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-element">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-element">
+              <a href="#hard-skills" class="nav-link">Hard skills</a>
+            </li>
+            <li class="nav-element">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+            <li class="nav-element">
+              <a href="#about-me" class="nav-link">About me</a>
+            </li>
+            <li class="nav-element">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-element">
+              <a href="#my-code" class="nav-link">My code</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="left-container">
+        <img src="./assets/img/avatar.jpg" alt="Mikhail Vezhnovets" class="avatar">
+        <section class="content left-content">
+          <div class="content-container">
+            <h2 class="title" id="contacts">Contacts</h2>
+            <hr class="delimiter">
+              <ul class="info-list">
+                <li class="elem-list text"><img src="./assets/svg/phone.svg" alt="phone" class="svg-icon">+375337777777</li>
+                <li class="elem-list text"><img src="./assets/svg/mail.svg" alt="email" class="svg-icon">mikhailvezhnovets@gmail.com</li>
+                <li class="elem-list text"><img src="./assets/svg/telegram.svg" alt="telegram" class="svg-icon">@mikhail73</li>
+                <li class="elem-list text"><img src="./assets/svg/home.svg" alt="home" class="svg-icon">Minsk, Belarus</li>
+              </ul>
+          </div>
+          <div class="content-container">
+            <h2 class="title" id="hard-skills">Hard skills</h2>
+            <hr class="delimiter">
+              <ul class="info-list">
+                <li class="elem-list text">HTML5</li>
+                <li class="elem-list text">CSS3/SCSS</li>
+                <li class="elem-list text">Javascript(basic)</li>
+                <li class="elem-list text">React(basic)</li>
+                <li class="elem-list text">Git/GitHub(basic)</li>
+                <li class="elem-list text">Figma</li>
+              </ul>
+          </div>
+          <div class="content-container">
+            <h2 class="title" id="languages">Languages</h2>
+            <hr class="delimiter">
+              <ul class="info-list">
+                <li class="elem-list text">Belorussian(native)</li>
+                <li class="elem-list text">Russian(native)</li>
+                <li class="elem-list text">English(A1)</li>
+              </ul>
+          </div>
+        </section>
+      </div>
+      <div class="right-container">
+        <h1 class="h1">Mikhail Vezhnovets</h1>
+            <h4 class="prof">Front-End Developer(junior)</h4>
+          <div class="content-container">
+          <h2 class="title" id="about-me">About me</h2>
+          <hr class="delimiter">
+            <span class="text">I came to study front-end developer courses to get new professional opportunities and get out of my comfort zone. I will try my best to successfully complete the course.</span>
+       </div>
+       <div class="content-container">
+        <h2 class="title" id="my-code">My code</h2>
+        <hr class="delimiter">
+          <pre>
+            <code class="code">
+              function getRealFloor(n) {
+                if( n === 0) {
+                  return 0
+                } else if ( n > 0 ) {
+                  return n - 1
+                } else if (n >= 13) {
+                  return n - 2
+                } else { return n}
+              }
+            </code>
+          </pre>
+      </div><!-- <h2 class="title">Education</h2> -->
+       <div class="content-container">
+          <h2 class="title" id="courses">Courses</h2>
+          <hr class="delimiter">
+            <span class="text">Front-End Developer in
+              <a href="https://teachmeskills.by/" class="link">TeachMeSkills</a>
+            </span>
+       </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <span class="footer-text">2023
+            <a href="https://github.com/mvezhnovets?tab=repositories" class="footer-text">Mikhail Vezhnovets</a>
+          </span>
+          <a href="https://rs.school/js-en/" class="rss-school"><img src="./assets/img/rs_school_js.svg" alt="rs-school" class="rss-school"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
