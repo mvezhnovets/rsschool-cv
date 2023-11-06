@@ -1,24 +1,23 @@
-# **Михаил Вежновец**
+# **Mikhail Vezhnovets**
 ****
-## Контактная информация:
+## Contacts:
   - E-mail: mvezhnovets@gmail.com
   - GitHub: [mvezhnovets](https://github.com/mvezhnovets)
   - Telegram: @mvezhnovets
 
 ****
-## Обо мне:
-  На курсы front-end developer пошел для получения новых профессиональных возможностей и выхода из зоны комфорта.
-Постараюсь сделать все возможное для успешного прохождения курса.
+## About me:
+  I came to study front-end developer courses to get new professional opportunities and get out of my comfort zone. I will try my best to successfully complete the course.
 
 ****
-## Навыки:
+## Hard skills:
   - HTML
   - CSS(SCSS)
   - JavaScript(basic)
   - GIT(basic)
 
 ****
-## Пример кода:
+## My code:
 ```
 function getRealFloor(n) {
   if( n === 0) {
@@ -32,11 +31,11 @@ function getRealFloor(n) {
 ```
 
 ****
-## Образование:
+## Courses:
   - Front-End Developer в [TeachMeSkills](https://teachmeskills.by/)
 
 ****
-## Языки:
+## Languages:
   - English(A1)
-  - Беларускi родны
-  - Русский родной
+  - Belorussian(native)
+  -Russian(native)
