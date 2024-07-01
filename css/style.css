@@ -15,7 +15,7 @@
     font-family: "Montserrat";
     font-size: 24px;
     border-radius: 15px 15px 0 0;
-    font-weight: 600;
+    font-weight: 100%;
   }
   .nav-list {
     display: flex;
@@ -93,6 +93,7 @@
     border-radius: 0 0 15px 15px;
     background-color: #7b7a7a;
     padding: 25px;
+    width: 100%;
   }
   .footer-info{
     display: flex;
